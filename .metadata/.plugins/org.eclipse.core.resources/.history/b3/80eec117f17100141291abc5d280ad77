@@ -1,0 +1,7 @@
+package com.moe.deliver.data;
+
+public class Item { 
+	String name;
+	double price;
+	String description;
+}

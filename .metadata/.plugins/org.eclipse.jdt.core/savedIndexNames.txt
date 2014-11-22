@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Users\moe\Desktop\PROGRAMMING\ANDROID\Guissepes Concept\.metadata\.plugins\org.eclipse.jdt.core
+375510522.index
+2893706794.index

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/offwhitebg"
+    android:orientation="vertical">
+	
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menutopbar">
+        
+        <Button
+            android:id="@+id/backbtn"  
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <ImageView 
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menutabbar"
+        android:paddingTop="4dp">
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            
+            <Button
+                android:id="@+id/cartblack"
+                android:background="@drawable/cartblack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.7"
+                android:scaleY="0.7"/>
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            
+            <Button
+                android:id="@+id/menublack"
+                android:background="@drawable/menublack"
+                android:layout_width="wrap_content"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:layout_height="wrap_content"/>
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            
+            <Button
+                android:id="@+id/infoblack"
+                android:background="@drawable/infoblack"
+                android:layout_width="wrap_content"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:layout_height="wrap_content"/>
+            
+        </RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+    
+    
+    <ListView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/categoryList"/>
+    
+
+</LinearLayout>
